@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prathmesh Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2>MY PORTFOLIO</h2>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#projects">Projects</a>
+    <a href="#academic">Academic Performance</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HOME -->
+<header id="home">
+  <h1>Hi, I'm Prathmesh</h1>
+  <p>Aspiring Developer | Problem Solver | Tech Enthusiast</p>
+  <br>              <br>
+  <a href="resume.pdf" class="btn" download>Download Resume</a>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a BCA student passionate about coding, development and solving real-world problems.
+    I am a quick learner who enjoys taking on new challenges and adapting to new technologies. During my academic journey, I have worked on multiple projects that reflect my ability to apply theoretical knowledge to real-world scenarios. I believe in writing clean, efficient, and maintainable code.
+
+  </p>
+</section>
+
+<!--Achievements -->
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="grid">
+
+    <div class="card">
+      <p><strong>Full Stack Web Development</strong></p>
+      <p>Gained knowledge of frontend and backend technologies.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>Python Certification</strong></p>
+      <p>Completed certification and learned core programming concepts.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>Project Development</strong></p>
+      <p>Built multiple academic projects using different technologies.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>DSA Practice</strong></p>
+      <p>Practiced basic data structures and problem-solving skills.</p>
+    </div>
+
+    <div class="card">
+      <p><strong>Web Technologies</strong></p>
+      <p>Learned HTML, CSS, JavaScript and modern web tools.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="image.png" onclick="openLightbox(this.src)">
+      <p>YUVA AI</p>
+    </div>
+    <div class="card">
+      <img src="Screenshot 2026-04-07 150948.png" onclick="openLightbox(this.src)">
+      <p>Soft Skills</p>
+    </div>
+    <div class="card">
+      <img src="introduction to modern AI.png" onclick="openLightbox(this.src)">
+      <p>Introduction To Modern AI</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="students.png" onclick="openLightbox(this.src)">
+      <p><strong>Student Management System (C++)</strong></p>
+      <p>Developed for C++ subject to manage student records like add, update, delete and display data using file handling.</p>
+    </div>
+
+    <div class="card">
+      <img src="python calculater.jpg" onclick="openLightbox(this.src)">
+      <p><strong>Python Calculator</strong></p>
+      <p>Created for Python subject to perform basic arithmetic operations with user input and simple logic implementation.</p>
+    </div>
+
+    <div class="card">
+      <img src="simple porfolio.jpg" onclick="openLightbox(this.src)">
+      <p><strong>Simple Portfolio</strong></p>
+      <p>Built using HTML, CSS and JavaScript to showcase personal details, projects and achievements.</p>
+    </div>
+
+    <div class="card">
+      <img src="quiuz application.webp" onclick="openLightbox(this.src)">
+      <p><strong>Quiz Application</strong></p>
+      <p>Developed for programming subject to conduct quizzes with multiple choice questions and score calculation.</p>
+    </div>
+
+    <div class="card">
+      <img src="Online voting system.jpg" onclick="openLightbox(this.src)">
+      <p><strong>Online Voting System</strong></p>
+      <p>AI for All project to simulate secure digital voting system with user authentication and result generation.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="academic">
+  <h2>Academic Performance</h2>
+
+  <div class="grid">
+
+    <!-- BCA -->
+    <div class="card">
+      <h3>BCA – 1st Semester</h3>
+      <p class="highlight">8.45 CGPA</p>
+      <p>Year: 2025</p>
+      <p>Course: Bachelor of Computer Applications</p>
+      
+    </div>
+
+    <!-- 12th -->
+    <div class="card">
+      <h3>12th Standard</h3>
+      <p class="highlight">78%</p>
+      <p>Year: 2024</p>
+      <p>Stream: Commerce</p>
+      <p>Board: HSC</p>
+      <p>Grade: First Class</p>
+    </div>
+
+    <!-- 10th -->
+    <div class="card">
+      <h3>10th Standard</h3>
+      <p class="highlight">85%</p>
+      <p>Year: 2022</p>
+      <p>Board: SSC</p>
+      <p>Grade: First Class</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  
+  <p>Email: 
+    <a href="mailto:prathmeshnavgire0@gmail.com">
+      prathmeshnavgire0@gmail.com
+    </a>
+  </p>
+  
+  <p>GitHub: 
+    <a href="https://github.com/prathmesh-80" target="_blank">
+      github.com/prathmesh-80
+    </a>
+  </p>
+  
+  <p>LinkedIn: 
+    <a href="https://linkedin.com/in/prathmesh.navgire" target="_blank">
+      linkedin.com/in/prathmesh.navgire
+    </a>
+  </p>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
